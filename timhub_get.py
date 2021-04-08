@@ -188,18 +188,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-u', default=username, help="username")
 parser.add_argument('-i', default=ip, help="ip")
 parser.add_argument('-p', default=password, help="password")
-parser.add_argument('-r', default=reboot, help="reboot")
 parser.add_argument('-m', default=monitor, help="monitor")
-parser.add_argument('-c', default=clear, help="clear stats")
 
 args = parser.parse_args()
 
 username = args.u
 ip = args.i
 password = args.p
-reboot = args.r
 monitor = args.m
-clear = args.c
 
 result = os.system("pkill chromedriver")
 result = os.system("pkill chromium")
