@@ -1,4 +1,4 @@
-# scrape_dsl_modem_stats
+# scrape_timmodem_stats
 scrape TIM Modem (AKA Technicolor DGA4130) stats with the python selenium module.  the applciation is: timhub_get.py
 
 Liberally inspired by code at https://github.com/jearlcalkins/scrape_dsl_modem_stats
