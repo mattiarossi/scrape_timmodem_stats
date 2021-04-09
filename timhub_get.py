@@ -180,7 +180,9 @@ samples = {}
 password = 'admin'
 ip = '192.168.101.1'
 username = 'Administrator'
+reboot = 'no'
 monitor = "no"
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-u', default=username, help="username")
